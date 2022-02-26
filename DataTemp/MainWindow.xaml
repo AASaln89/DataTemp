@@ -43,7 +43,7 @@
         </DataTemplate>
     </Window.Resources>
     <StackPanel>
-        <TextBlock x:Name="textBlock" Text="Список товаров" FontSize="26"/>
+        <TextBlock x:Name="textBlock" Text="Список товаров" FontSize="26" HorizontalAlignment="Center"/>
         <ListBox x:Name="listBox" ItemTemplate="{StaticResource dTemp}" HorizontalContentAlignment="Stretch" FontSize="22"/>
     </StackPanel>
 </Window>
